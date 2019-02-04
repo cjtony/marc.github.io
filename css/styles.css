@@ -22,6 +22,10 @@ a{
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+.text-brown {
+    color: #8D4925 !important;
+}
+
 .spacing {
     letter-spacing: 5px;
 }
