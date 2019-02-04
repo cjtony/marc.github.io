@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   	if (screen.width > 340 && screen.width < 650 || screen.width > 760 && screen.width < 1024) {
   		document.getElementById('sidebar').classList.add('bg-dark');
   		document.getElementById('contsec1').classList.add('mt-4');
+  		document.getElementById('contredmen').classList.add('ocult');
   		document.getElementById('tarico').classList.remove('ocult');
   		document.getElementById('sec2').classList.remove('py-5');
   		document.getElementById('sec3').classList.remove('py-5');
@@ -21,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
   		document.getElementById('imgus').classList.add('mt-5');
   		document.getElementById('contmsj').classList.add('mt-5');
   		document.getElementById('contfot').classList.remove('mt-5');
+  		document.getElementById('contredfot').classList.remove('ocult');
   	} else {
   		document.getElementById('sidebar').classList.remove('bg-dark');
   	}
