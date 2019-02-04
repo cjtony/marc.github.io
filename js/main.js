@@ -11,6 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
   		document.getElementById('sidebar').classList.add('bg-dark');
   		document.getElementById('contsec1').classList.add('mt-4');
   		document.getElementById('tarico').classList.remove('ocult');
+  		document.getElementById('sec2').classList.remove('py-5');
+  		document.getElementById('sec3').classList.remove('py-5');
+  		document.getElementById('sec4').classList.remove('py-5');
+  		document.getElementById('sec5').classList.remove('py-5');
   		document.getElementById('imgus').classList.add('mt-5');
   		document.getElementById('contmsj').classList.add('mt-5');
   		document.getElementById('contfot').classList.remove('mt-5');
