@@ -6,6 +6,10 @@ a{
     text-decoration: none !important; 
 }
 
+.ocult {
+    display: none !important;
+}
+
 .let-style-1 {
     font-family: 'PT Sans Caption', sans-serif;
 }
@@ -141,6 +145,10 @@ a{
     50% {
         transform: translate(0, 3px);
     }
+}
+
+#arrowico {
+    animation: float 3s ease-out infinite;
 }
 
 #img-contact {
