@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
   	});
   	if (screen.width > 340 && screen.width < 650 || screen.width > 760 && screen.width < 1024) {
   		document.getElementById('sidebar').classList.add('bg-dark');
-  		document.getElementById('contsec1').classList.add('mt-4');
+  		document.getElementById('contsec1').classList.add('mt-5');
   		document.getElementById('imgus').classList.add('mt-3');
   		document.getElementById('contmsj').classList.add('mt-3');
   	} else {
