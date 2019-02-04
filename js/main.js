@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
   		document.getElementById('sec5').classList.remove('py-5');
   		document.getElementById('sectec').classList.remove('py-5');
   		document.getElementById('sec5').classList.add('mt-5');
-  		document.getElementById('txtcont').classList.add('mt-3');
+  		document.getElementById('txtcont').classList.add('mt-5');
   		document.getElementById('imgus').classList.add('mt-5');
   		document.getElementById('contmsj').classList.add('mt-5');
   		document.getElementById('contfot').classList.remove('mt-5');
